@@ -1,0 +1,12 @@
+{
+  "name": "legacy-gradient.styl",
+  "version": "1.0.0",
+  "main": "legacy-gradient.styl",
+  "author": "Tomohiro Kasuga",
+  "ignore": [
+    "gruntfile.coffee",
+    "node_modules",
+    "package.json",
+    "test"
+  ]
+}
