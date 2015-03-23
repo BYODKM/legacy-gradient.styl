@@ -1,10 +1,10 @@
 # [legacy-gradient.styl](legacy-gradient.styl)
 
-Legacy webkit gradient syntax sugar.
+> Webkit legacy gradient mixin for [Stylus](http://learnboost.github.io/stylus/).
 
 ## Usage
 
-### From Stylus
+demo.styl:
 
 ```
 @import "nib"
@@ -15,7 +15,7 @@ Legacy webkit gradient syntax sugar.
   background-image linear-gradient(135deg, red, blue)
 ```
 
-### To CSS
+demo.css:
 
 ```
 .box {
@@ -31,6 +31,12 @@ Legacy webkit gradient syntax sugar.
 ## Known Issue
 
 Because of imported nib library, actual output is a little bit different from above. But roughly speaking, browsers get same.
+
+## Install
+
+```
+bower install --save legacy-gradient.styl
+```
 
 ## License
 
