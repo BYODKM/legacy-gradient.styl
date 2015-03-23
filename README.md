@@ -4,7 +4,7 @@
 
 ## Usage
 
-demo.styl:
+test.styl:
 
 ```
 @import "nib"
@@ -15,7 +15,7 @@ demo.styl:
   background-image linear-gradient(135deg, red, blue)
 ```
 
-demo.css:
+test.css:
 
 ```
 .box {
@@ -30,7 +30,9 @@ demo.css:
 
 ## Known Issue
 
-Because of imported nib library, actual output is a little bit different from above. But roughly speaking, browsers get same.
+- Because of imported nib library, actual output is a little bit different from above. But roughly speaking, browsers get same.
+
+- No issue with [kouto-swiss](http://kouto-swiss.io).
 
 ## Install
 
