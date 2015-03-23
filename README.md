@@ -37,7 +37,7 @@ test.css:
 ## Install
 
 ```
-bower install --save legacy-gradient.styl
+$ bower install --save legacy-gradient.styl
 ```
 
 ## License
