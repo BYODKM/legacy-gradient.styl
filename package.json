@@ -8,6 +8,7 @@
     "grunt-contrib-jade": "~0.14.1",
     "grunt-contrib-stylus": "~0.21.0",
     "grunt-contrib-watch": "~0.6.1",
+    "kouto-swiss": "~0.11.11",
     "load-grunt-tasks": "~3.1.0"
   },
   "repository": {

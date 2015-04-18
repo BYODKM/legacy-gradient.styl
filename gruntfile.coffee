@@ -5,16 +5,17 @@ module.exports = (grunt) ->
   grunt.initConfig
 
     stylus:
+      options:
+        compress: false
+        use: [require('kouto-swiss')]
       compile:
-        options:
-          compress: false
         files:
           'test/test.css': 'test/test.styl'
 
     jade:
+      options:
+        pretty: true
       compile:
-        options:
-          pretty: true
         files:
           'test/index.html': 'test/index.jade'
 

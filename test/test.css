@@ -12,15 +12,11 @@ body {
 }
 .legacy-gradient {
   background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #f00), color-stop(1, #00f));
-  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #f00), color-stop(1, #00f));
-  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #f00), color-stop(1, #00f));
-  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #f00), color-stop(1, #00f));
-  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #f00), color-stop(1, #00f));
 }
 .linear-gradient {
-  background-image: -webkit-linear-gradient(315deg, #f00, #00f);
-  background-image: -moz-linear-gradient(315deg, #f00, #00f);
-  background-image: -o-linear-gradient(315deg, #f00, #00f);
-  background-image: -ms-linear-gradient(315deg, #f00, #00f);
-  background-image: linear-gradient(135deg, #f00, #00f);
+  background-image: -webkit-linear-gradient(315deg,#f00,#00f);
+  background-image: -moz-linear-gradient(315deg,#f00,#00f);
+  background-image: -ms-linear-gradient(315deg,#f00,#00f);
+  background-image: -o-linear-gradient(315deg,#f00,#00f);
+  background-image: linear-gradient(135deg,#f00,#00f);
 }
