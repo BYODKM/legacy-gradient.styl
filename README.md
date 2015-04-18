@@ -7,11 +7,11 @@
 test.styl:
 
 ```
-@import "nib"
+@import "nib" // or "kouto-swiss"
 @import "legacy-gradient.styl"
 
 .box
-  background-image legacy-gradient(top left, red, blue)
+  background-image legacy-gradient(top left, red 0%, blue 100%)
   background-image linear-gradient(135deg, red, blue)
 ```
 
@@ -28,11 +28,11 @@ test.css:
 }
 ```
 
-## Known Issue
+## Known Issues
 
 - Because of imported nib library, actual output is a little bit different from above. But roughly speaking, browsers get same.
 
-- No issue with [kouto-swiss](http://kouto-swiss.io).
+- With [kouto-swiss](http://kouto-swiss.io), legacy-gradient mixin needs color-stops percentages.
 
 ## Install
 
