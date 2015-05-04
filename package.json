@@ -1,7 +1,7 @@
 {
   "name": "legacy-gradient.styl",
   "version": "1.0.0",
-  "description": "Legacy webkit gradient syntax sugar.",
+  "private": true,
   "devDependencies": {
     "grunt": "~0.4.5",
     "grunt-contrib-connect": "~0.10.1",
@@ -10,11 +10,5 @@
     "grunt-contrib-watch": "~0.6.1",
     "kouto-swiss": "~0.11.11",
     "load-grunt-tasks": "~3.1.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BYODKM/legacy-gradient.styl"
-  },
-  "author": "Tomohiro Kasuga",
-  "license": "MIT"
+  }
 }
